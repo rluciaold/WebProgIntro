@@ -1,24 +1,46 @@
 body
+/* this is the page settings*/
 {
     width: 640px;
     margin: 0 auto;
 }
 
 p
+/* default/normal text*/
 {
-    font-size: 110%;
+    font-size: 100%;
     font-family: sans-serif;
 }
 
 
 
-p.important
+p.indented
+/* add margins maybe?*/
 {
     color: red;
     font-weight: bold;
 }
 
-#first-para a
+h1
+/* large text*/
 {
-    text-decoration: none;
+
+}
+
+img
+/* just centered */
+{
+
+}
+
+p.imgtags
+/* subheadings under images */
+{
+
+}
+
+a
+/* this styles the links */
+{
+
 }
