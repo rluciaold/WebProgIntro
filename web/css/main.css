@@ -31,7 +31,8 @@ h1
 img
 /* just centered */
 {
-align: middle;
+margin:0 auto;
+display:block;
 }
 
 p.imgtags
