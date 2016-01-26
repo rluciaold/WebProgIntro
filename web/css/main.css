@@ -1,0 +1,24 @@
+body
+{
+    width: 640px;
+    margin: 0 auto;
+}
+
+p
+{
+    font-size: 110%;
+    font-family: sans-serif;
+}
+
+
+
+p.important
+{
+    color: red;
+    font-weight: bold;
+}
+
+#first-para a
+{
+    text-decoration: none;
+}
