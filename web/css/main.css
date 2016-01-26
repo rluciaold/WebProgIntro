@@ -24,7 +24,7 @@ p.indented
 h1
 /* large text*/
 {
-
+    font-family: sans-serif;
 }
 
 img
