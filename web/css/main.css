@@ -24,13 +24,13 @@ p.indented
 h1
 /* large text*/
 {
-
+font-size: 30px;
 }
 
 img
 /* just centered */
 {
-
+align: center;
 }
 
 p.imgtags
