@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Curinga::About</title>
-    <link rel="stylesheet" href="css/main.css">
+    <title>Let's fuckin' wiggle</title>
+    <link rel="stylesheet" href="css/main.css"> 
+    <!-- <link href="//fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css"> -->
+    <!-- I can't get droid-sans to work... -->
 </head>
 
 <body>
@@ -29,8 +31,136 @@
     
     <img src="http://i.imgur.com/QVNzJ5a.png">
 
+    <p>
+    First, you need to know how to apply an expression to an objects property. After you create objects, Alt+Click on the stopwatch button of the property you wish to apply an expression to.
+    </p>
+
+    <img src="http://i.imgur.com/pAoyhVZ.png">
+
+    <p>
+    You will open up an expression box in which you can write a vast amount of different expressions. Feel free to delete what's already written in that box.
+    </p>
+
+    <img src="http://i.imgur.com/vYogT4t.png">
+
+    <p>
+    In this example, we've written a subtle and simple wiggle expression. To finalize and complete the writing of this expression, don't press Enter like you may feel like doing, but just click away from the text box. Below, we'll explore the format of the wiggle expression and what the end product looks like!
+    </p>
+    <hr>
+    <p>
+    We need to understand the basic format of the wiggle expression:
+    </p>
+    <p class="indented">
+    wiggle(a,b)
+    The term wiggle tells AfterEffects that the wiggle function is going to be used.
+
+    The a & b are to be replaced by numbers. a represents the number of times per second it 'wiggles' and b represents the amount to wiggle.
+
+    For example: 
+    </p>
+    <img src="http://i.imgur.com/IMKf379.gif">
+
+    <p class="imgtag">
+    expression 1: wiggle(2,5)
+    </p>
+
+    <p>Look closely at the above image. It's an animated .GIF, that light is actually moving very slightly. That's because the expression used to create that particular wiggle used very small numbers.
+    </p>
+
+    <p class="indented">
+    wiggle(2,5)
+    <br>
+    2 times per second it moved 5 pixels.
+    </p>
+
+    <p>
+    This may be useful when you want to add very subtle movement, randomness, or imperfection to an item's qualities. One very useful application would to be to add this subtle wiggle to a camera to give it a less robotic feel and give it a more organic vibe-- a little bit of wiggle goes a long way.
+    </p>
+
+    <hr>
+
+    <img src="http://i.imgur.com/5kMJyOv.gif">
+
+    <p class="imgtag">
+    expression 2: wiggle(2,500)
+    </p>
+
+    <p>
+    Now it's a bit more obvious what's happening here. 2 times per second, or every half second, the Point of Interest of the light changes up to 500 pixels. It's random-- so one change might be 323 pixels, the next may be 20 pixels, the next could be -460 pixels, and so on.
+    </p>
+
+    <hr>
+
+    <img src="http://i.imgur.com/QI6JXVG.gif">
+
+    <p class="imgtag">
+    expression 3: wiggle(2,5000)
+    </p>
+
+    <p>
+    The above example shows what it would look like if you went a bit more extreme with the formula. No applications for such a drastic expression immediately come to mind, but it's important to know your options.
+    </p>
+
+    <hr>
+
+    <img src="http://i.imgur.com/mh9gL0J.gif">
+
+    <p class="imgtag">
+    expression 4: wiggle(5,50)
+    </p>
+
+    <p>
+    This expression is a little different. Now, I've changed the first variable instead of the second. It's now changing 5 times per second, at a range of 50 pixels.
+    </p>
+
+    <hr>
+
+    <img src="http://i.imgur.com/66Gxa3J.gif">
+
+    <p class="imgtag">
+    expression 5: wiggle(10,50)
+    </p>
+
+    <p>
+    This is the same change-range of 50 pixels, but now with a doubled 10 times per second. It's starting to look a bit 'shakier'. Be aware that in these examples they are only running at 30 frames per second. 
+    </p>
+
+    <hr>
+
+    <img src="http://i.imgur.com/kIoIQAj.gif">
+
+    <p class="imgtag">
+    expression 6: wiggle(50,50)
+    </p>
+
+    <p>
+    This expression is wiggling 50 times per second at a range of 50 pixels. It looks extremely unstable. It's actually changing it's range/destination of within 50 pixels faster than it is displaying each frame! Of course, AfterEffects forces the animation to display at our configured 30 FPS, and we see just that. However, AfterEffects is still processing the effect at 50 times per second, which means the output will be visibly different.
+    </p>
+
+    <hr>
+
+    <img src="http://i.imgur.com/4u8AEiS.gif">
+
+    <p class="imgtag">
+    expression 7: wiggle(20,200)
+    </p>
+
+    <p>
+    This example has both variables quite high. 20 times per second it changes within a range of 200 pixels.
+
+    It's important to look at these animations and appreciate them for what they really are.  Zero keyframes were made in all of these animations. All I did was write a simple wiggle expression for each. This saves an amazing amount of     time, as keyframing is obviously a very time consuming manual process. 
+    </p>
+
+    <hr>
+
+
+
+
+
+
+
     <p class="important">
-        <a href="http://www.auedtech.org">The Ed Tech Website</a><br>
+        <br>
         Phasellus lorem nisi, volutpat in accumsan nec, rutrum vitae ante. Cras tempus
         eleifend ligula in tincidunt. Fusce varius, mi at molestie consequat, purus
         lacus euismod leo, vehicula auctor purus enim ornare ipsum. Nunc id placerat
