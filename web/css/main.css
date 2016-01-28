@@ -9,7 +9,7 @@ p
 /* default/normal text*/
 {
     font-size: 90%;
-    font-family: sans-serif;
+    font-family: 'Droid Sans';
     line-height: 150%;
     color:#3A383B;
 }
@@ -28,6 +28,7 @@ h1
 {
     font-family: sans-serif;
     font-size: 30px;
+    line-height: 100%;
 }
 
 img
@@ -35,6 +36,7 @@ img
 {
 margin:0 auto;
 display:block;
+line-height: 20%;
 }
 
 p.imgtag
@@ -44,6 +46,7 @@ p.imgtag
     text-align: center;
     font-style: italic;
     color: darkgreen;
+    line-height: 1%;
 }
 
 a
