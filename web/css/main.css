@@ -8,11 +8,7 @@ body
 main
 {
     width: 60%;
-<<<<<<< Updated upstream
     background-color: #B79D94;
-=======
-    background-color: #354A4A;
->>>>>>> Stashed changes
     padding-left: 20%;
     padding-right: 20%;
 }
@@ -80,11 +76,11 @@ section{
 
 .headtitle{
     background: #282828;
-    color: #63CCCA;
+    color: #fff;
     padding-bottom: 40px;
 }
 .headtitle h3{
-    color: #E75F35;
+    color: #fff;
     font-family: 'Droid Sans';
     font-size: 300%;
 }
