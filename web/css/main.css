@@ -1,9 +1,19 @@
 body
 /* this is the page settings*/
 {
-    width: 60%;
+    /*width: 60%;*/
     margin: 0 auto;
 }
+
+main
+{
+    width: 60%;
+    background-color: #5C6B73;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
 
 p
 /* default/normal text*/
@@ -45,7 +55,7 @@ p.imgtag
     font-size: 120%;
     text-align: center;
     font-style: bold;
-    color: red;
+    color: #E75F35;
     line-height: 1%;
 }
 
@@ -53,4 +63,24 @@ a
 /* this styles the links */
 {
 
+}
+
+section{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    vertical-align: middle;
+    padding-top: 5%;
+}
+
+.headtitle{
+    background: #282828;
+    color: #fff;
+    padding-bottom: 40px;
+}
+.headtitle h3{
+    color: #fff;
+    font-family: 'Droid Sans';
+    font-size: 300%;
 }
