@@ -187,19 +187,63 @@
         egestas rutrum libero, vel euismod ante mollis at. Curabitur finibus erat vel
         lorem imperdiet lobortis.
     </p>
-    <p>
-        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-        cubilia Curae; Mauris ac quam varius, pulvinar lectus ut, aliquet ligula.
-        Vivamus ac urna elit. Nulla feugiat, dui eu scelerisque tristique, velit
-        libero bibendum neque, et luctus augue est at risus. Donec sapien lacus,
-        interdum sed rhoncus nec, pretium ut libero. Mauris varius id mauris ac
-        finibus. Pellentesque nec tristique nulla. Proin ut rutrum ligula. Fusce
-        laoreet ornare sodales. Cras non magna libero. Quisque mollis auctor diam sit
-        amet pretium. Vivamus dolor lectus, lobortis ut euismod tristique, egestas
-        vitae velit. Donec venenatis nisi velit, sed posuere orci suscipit quis.
-        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
-        turpis egestas. Phasellus a eros ut nunc tristique bibendum.
+    <p>Thanks for visiting!
+    Bye!
     </p>
+    
+<style class="cp-pen-styles">.container {
+  margin: 100px;
+}
+
+.circle, .circle0, .circle1, .circle2, .circle3, .circle4, .circle5 {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+}
+.container:hover .circle, .container:hover .circle0, .container:hover .circle1, .container:hover .circle2, .container:hover .circle3, .container:hover .circle4, .container:hover .circle5 {
+  transform: translateX(200px);
+}
+
+.circle0 {
+  background: PaleTurquoise;
+  transition: all 1.5s linear;
+}
+
+.circle1 {
+  background: salmon;
+  transition: all 1.5s ease;
+}
+
+.circle2 {
+  background: lightskyblue;
+  transition: all 1.5s ease-in;
+}
+
+.circle3 {
+  background: khaki;
+  transition: all 1.5s ease-out;
+}
+
+.circle4 {
+  background: mediumturquoise;
+  transition: all 1.5s ease-in-out;
+}
+
+.circle5 {
+  background: thistle;
+  transition: all 1.5s cubic-bezier(0, 1, 0.98, 0);
+}
+</style></head><body>
+<div class="container">
+  <div class="circle0"></div>
+  <div class="circle1"></div>
+  <div class="circle2"></div>
+  <div class="circle3"></div>
+  <div class="circle4"></div>
+  <div class="circle5"></div>
+</div>
+
 </main>
 </body>
 </html>
