@@ -21,7 +21,7 @@ p
     font-size: 90%;
     font-family: 'Droid Sans';
     line-height: 150%;
-    color:orange;
+    color:#46743A;
 }
 
 
@@ -75,7 +75,7 @@ section{
 }
 
 .headtitle{
-    background: #8DA1B9;
+    background: #C29490;
     color: #fff;
     padding-bottom: 40px;
 }
